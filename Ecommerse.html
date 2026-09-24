@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+        }
+        .first{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 10px;
+            background-color:blueviolet;
+            font-size: xx-large;
+            color:white;
+            width: 100%;
+        }
+        .second{
+            background-color: rgb(109, 10, 189);
+            text-align: center;
+            color: aliceblue;
+            font-size: xx-large;
+            width: 100%;
+
+
+
+            
+        }
+        .second h1{
+            margin: 0;
+        }
+        .third{
+            display: grid;
+            grid-template-columns:repeat(5,1fr) ;
+            gap: 50px;
+            padding: 50px;
+        }
+        .box{
+            border: 3px solid black;
+        
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.2s ease-out;
+             
+
+
+        }
+        .box:hover{
+            transform: scale(0.9) ;
+    
+        }
+        .box img{
+            width: 90%;
+            height: 70%;
+        }
+        .box button{
+            width: 70%;
+            background-color:rgb(88, 10, 213);
+            border-radius: 10px;
+            color: aliceblue
+            ;
+        }
+        .fourth{
+            background-color: lightslategray;
+            font-size: xx-large;
+            text-align: center;
+            color: aliceblue;
+            width: 100%;
+        }
+        .fourth h2{
+            margin: 0;
+        }
+        if()
+        @media(max-width:500px){
+            .first{
+                grid-template-columns: 1fr 1fr;
+        
+            }
+            .second{
+                width: 100vw;
+                font-size: 20px;
+                text-align: center;
+                width: 100vw;
+            }
+            .third{
+                grid-template-columns: 1fr;
+                width: 100%;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .fourth{
+                width: 100%;
+                font-size: 20px;
+            }
+            .box{
+                width: 80%;
+            }
+        }
+        @media(min-width:500px) and (max-width:800px){
+            .first{
+                grid-template-columns: 1fr 1fr;
+        
+            }
+            .second{
+                
+                font-size: 20px;
+                text-align: center;
+                width: 100vw;
+            }
+            .third{
+                grid-template-columns: 1fr ifr;
+                width: 100%;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .fourth{
+                width: 100%;
+                font-size: 24px;
+            }
+            .box{
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <div>content</div>
+        <div>content</div>
+        <div>content</div>
+        <div>content</div>
+        <div>content</div>
+    </div>
+    <div class="second">
+        <h1>ours community</h1>
+    </div>
+    <div class="third">
+        <div class="box">
+            <h2>watch</h2>
+            <img src="images/download  cam.jpg" alt="images">
+            <br>
+            <button>book now</button>
+            <br>
+        </div>
+        <div class="box">
+            <h2>watch</h2>
+            
+            <img src="images/download  cam.jpg" alt="images"><br>
+            <button>book now</button>
+            <br>
+        </div>
+        <div class="box">
+            <h2>watch</h2>
+            
+            <img src="images/download  cam.jpg" alt="images"><br>
+            <button>book now</button>
+            <br>
+        </div>
+        <div class="box">
+            <h2>watch</h2>
+            
+            <img src="images/download  cam.jpg" alt="images"><br>
+            <button>book now</button>
+            <br>
+        </div>
+        <div class="box">
+            <h2>watch</h2>
+            
+            <img src="images/download  cam.jpg" alt="images"><br>
+            <button>book now</button>
+            <br>
+        </div>
+    </div>
+     <div class="third">
+        <div class="box">
+            <h2>watch</h2>
+            <img src="images/download  cam.jpg" alt="images">
+            <br>
+            <button>book now</button>
+            <br>
+        </div>
+        <div class="box">
+            <h2>watch</h2>
+            
+            <img src="images/download  cam.jpg" alt="images"><br>
+            <button>book now</button>
+            <br>
+        </div>
+        <div class="box">
+            <h2>watch</h2>
+            
+            <img src="images/download  cam.jpg" alt="images"><br>
+            <button>book now</button>
+            <br>
+        </div>
+        <div class="box">
+            <h2>watch</h2>
+            
+            <img src="images/download  cam.jpg" alt="images"><br>
+            <button>book now</button>
+            <br>
+        </div>
+        <div class="box">
+            <h2>watch</h2>
+            
+            <img src="images/download  cam.jpg" alt="images"><br>
+            <button>book now</button>
+            <br>
+        </div>
+    </div>
+    <div class="fourth">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat consequuntur, nemo error doloremque reprehenderit distinctio, eum dicta quam id sit eos. Eius ad, quas voluptatem suscipit atque accusantium distinctio dolorem.</p>
+        <h2>camera.in</h2>
+    </div>
+</body>
+</html>
